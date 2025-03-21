@@ -26,6 +26,6 @@
 	};
   direct_gpio: direct_gpio {
         compatible = "zmk,kscan-direct";
-        row-gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        row-gpios = <&xiao_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 };
